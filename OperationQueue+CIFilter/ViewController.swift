@@ -33,7 +33,6 @@ class ViewController: UIViewController {
     
     @objc func sliderValueChanged(_ sender: UISlider) {
         let value = sender.value
-        operationQueue.cancelAllOperations()
         switch sender {
         case brightnessSlider:
             brightnessFilter.setValue(value, forKey: kCIInputBrightnessKey)
@@ -52,6 +51,7 @@ class ViewController: UIViewController {
                                                 }
         }
         activityIndicator.startAnimating()
+        operationQueue.cancelAllOperations()
         operationQueue.addOperation(filterOpertaion)
     }
 }

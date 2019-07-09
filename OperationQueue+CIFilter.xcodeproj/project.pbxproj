@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B202813222D3356E00A07880 /* CovertImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202813122D3356E00A07880 /* CovertImageOperation.swift */; };
 		B202813422D3365900A07880 /* ApplyFilterOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202812F22D3300500A07880 /* ApplyFilterOperation.swift */; };
 		B27D4F8222CF968B0092D0EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27D4F8122CF968B0092D0EA /* AppDelegate.swift */; };
 		B27D4F8422CF968B0092D0EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27D4F8322CF968B0092D0EA /* ViewController.swift */; };
@@ -18,7 +17,6 @@
 
 /* Begin PBXFileReference section */
 		B202812F22D3300500A07880 /* ApplyFilterOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyFilterOperation.swift; sourceTree = "<group>"; };
-		B202813122D3356E00A07880 /* CovertImageOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovertImageOperation.swift; sourceTree = "<group>"; };
 		B27D4F7E22CF968B0092D0EA /* OperationQueue+CIFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OperationQueue+CIFilter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27D4F8122CF968B0092D0EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B27D4F8322CF968B0092D0EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				B202812F22D3300500A07880 /* ApplyFilterOperation.swift */,
-				B202813122D3356E00A07880 /* CovertImageOperation.swift */,
 			);
 			path = Operations;
 			sourceTree = "<group>";
@@ -150,7 +147,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B202813422D3365900A07880 /* ApplyFilterOperation.swift in Sources */,
-				B202813222D3356E00A07880 /* CovertImageOperation.swift in Sources */,
 				B27D4F8422CF968B0092D0EA /* ViewController.swift in Sources */,
 				B27D4F8222CF968B0092D0EA /* AppDelegate.swift in Sources */,
 			);
